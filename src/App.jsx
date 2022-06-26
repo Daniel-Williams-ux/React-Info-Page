@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import Navbar from "./Components/Navbar"
+import MainContent from "./Components/MainContent"
 
-function App() {
+export default function App () {
   return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-    </main>
-  );
+    <div>
+      <Navbar />
+      <MainContent />
+    </div>
+    )
 }
-
-export default App;
